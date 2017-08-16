@@ -12,7 +12,7 @@ public class MySqrt {
      * @return
      */
     public static double sqrt(double N) {
-        double con = 1e-10;
+        double con = 1e-15;
         double t = N;
         while(t - N/t > con * t) {
             t = (t + N/t) / 2.0;
