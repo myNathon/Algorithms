@@ -34,7 +34,7 @@ public class StdOut {
      * @param x The <code>boolean</code> to be printed
      */
     public static void print(boolean x) {
-        out.println(x);
+        out.print(x);
     }
 
     /**
@@ -42,7 +42,7 @@ public class StdOut {
      * @param x The <code>char</code> to be printed
      */
     public static void print(char x) {
-        out.println(x);
+        out.print(x);
     }
 
     /**
@@ -50,7 +50,7 @@ public class StdOut {
      * @param x The <code>int</code> to be printed
      */
     public static void print(int x) {
-        out.println(x);
+        out.print(x);
     }
 
     /**
@@ -58,7 +58,7 @@ public class StdOut {
      * @param x The <code>long</code> to be printed
      */
     public static void print(long x) {
-        out.println(x);
+        out.print(x);
     }
 
     /**
@@ -66,7 +66,7 @@ public class StdOut {
      * @param x The <code>float</code> to be printed
      */
     public static void print(float x) {
-        out.println(x);
+        out.print(x);
     }
 
     /**
@@ -74,7 +74,7 @@ public class StdOut {
      * @param x The <code>double</code> to be printed
      */
     public static void print(double x) {
-        out.println(x);
+        out.print(x);
     }
 
     /**
@@ -82,7 +82,7 @@ public class StdOut {
      * @param x The array of chars to be printed
      */
     public static void print(char x[]) {
-        out.println(x);
+        out.print(x);
     }
 
     /**
@@ -90,7 +90,7 @@ public class StdOut {
      * @param x The <code>String</code> to be printed
      */
     public static void print(String x) {
-        out.println(x);
+        out.print(x);
     }
 
     /**
@@ -98,7 +98,7 @@ public class StdOut {
      * @param x The <code>Object</code> to be printed
      */
     public static void print(Object x) {
-        out.println(x);
+        out.print(x);
     }
 
     /**
