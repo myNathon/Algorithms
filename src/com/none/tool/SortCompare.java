@@ -1,7 +1,6 @@
 package com.none.tool;
 
-import com.none.algorithm.sort.Insertion;
-import com.none.algorithm.sort.Selection;
+import com.none.algorithm.sort.*;
 
 import java.util.Random;
 
@@ -27,6 +26,21 @@ public class SortCompare {
                 break;
             case "Insertion":
                 Insertion.sort(arr);
+                break;
+            case "Shell":
+                Shell.sort(arr);
+                break;
+            case "Merge":
+                Merge.sort(arr);
+                break;
+            case "MergeBU":
+                MergeBU.sort(arr);
+                break;
+            case "Quick":
+                Quick.sort(arr);
+                break;
+            case "Quick3way":
+                Quick3way.sort(arr);
                 break;
             default:
                 println("不识别算法标识符。");
